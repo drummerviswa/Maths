@@ -1,0 +1,6 @@
+![Home page](https://github.com/drummerviswa/Maths/blob/main/Sample/1.png)
+![2](https://github.com/drummerviswa/Maths/blob/main/Sample/2.png)
+![3](https://github.com/drummerviswa/Maths/blob/main/Sample/3.png)
+![4](https://github.com/drummerviswa/Maths/blob/main/Sample/4.png)
+![5](https://github.com/drummerviswa/Maths/blob/main/Sample/5.png)
+![6](https://github.com/drummerviswa/Maths/blob/main/Sample/6.png)
