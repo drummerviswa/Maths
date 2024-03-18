@@ -21,9 +21,9 @@ $ICT = [[1, 90], [2, 90], [4, 30], [5, 60], [6, 50], [48, 30]];
 
 
 $syst = [["Acer Veriton M4660G", "16GB", "2TB", "Ubuntu"], ["Dell optiplex3020", "6GB", "500GB", "Windows 7"]];
-$ser=["Number of Servers: 2 with an additional 2 systemOther Facilities:","UPS with 26 Batteries
+$ser = ["Number of Servers: 2 with an additional 2 systemOther Facilities:", "UPS with 26 Batteries
 Network Switch Rack"];
-$sel =["Srinivasa Ramanujan Seminar HallSeating Capacity:110","Number of Books available: More than 3500 books related to Mathematics and Computer Science"];
+$sel = ["Srinivasa Ramanujan Seminar Hall Seating Capacity:110", "Number of Books available: More than 3500 books related to Mathematics and Computer Science"];
 
 #Images
 $bgimage = "./Images/formula-bg.png";
@@ -37,30 +37,23 @@ $bgimage = "./Images/formula-bg.png";
   <title>Welcome to <?php echo $dept ?> - Anna University</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
-  <!-- Favicons -->
   <link href="./Images/Labp.svg" rel="icon" style="border-radius: 150;">
   <link href="./Images/Labp.svg" rel="apple-touch-icon">
-
-  <!-- Vendor CSS Files -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top" style="background-color: rgba(0, 0, 0,0.0);position:absolute">
     <div class="container d-flex align-items-center justify-content-between">
-
-      <!-- <h1 class="logo"><a href="index.html"><?php #Logo 
-                                                  ?></a></h1> -->
       <div class="container">
         <nav id="navbar" class="navbar">
+          <div></div>
           <ul>
             <li><a class="nav-link scrollto active" href="/">Home</a></li>
             <li><a class="nav-link scrollto" href="hod.php">HOD's Desk</a></li>
@@ -72,11 +65,11 @@ $bgimage = "./Images/formula-bg.png";
             <li><a class="nav-link scrollto" href="#contact">Gallery</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
+          <div></div>
+        </nav>
       </div>
     </div>
-  </header><!-- End Header -->
-  <!-- ======= Hero Section ======= -->
+  </header>
   <div id="hero" class="hero route bg-image" style="background-image: url(Images/depImg.jpg)">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
@@ -85,15 +78,12 @@ $bgimage = "./Images/formula-bg.png";
           <p class="display-6 color-d">Welcome to </p>
           <h1 class="hero-title mb-4"><?php echo $dept ?></h1>
           <p class="display-6 color-d">Anna University</p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
     </div>
-  </div><!-- End Hero Section -->
+  </div>
 
   <main id="main">
-
-    <!-- ======= About Section ======= -->
     <section style="background-image: url(<?php echo $bgimage ?>); " class="about-mf sect-pt4 route">
       <div class="container">
         <div class="row">
@@ -163,7 +153,6 @@ $bgimage = "./Images/formula-bg.png";
             </div>
           </div>
         </div>
-        <!--  -->
         <div class="row">
           <div class="container col-5">
             <div class="title-box-2">
@@ -229,7 +218,7 @@ $bgimage = "./Images/formula-bg.png";
           </div>
         </div>
         <div class="row">
-        <div class="container col-5">
+          <div class="container col-5">
             <div class="title-box-2">
               <h5 class="title-left">Seminar Halls and Library</h5>
             </div>
@@ -256,9 +245,9 @@ $bgimage = "./Images/formula-bg.png";
           </div>
         </div>
       </div>
-    </section><!-- End About Section -->
+    </section>
 
-    <section id="product" class="services-mf pt-5 route">
+    <section id="product" class="services-mf pt-5 route" > 
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -266,15 +255,50 @@ $bgimage = "./Images/formula-bg.png";
               <h3 class="title-a">
                 Courses Offered
               </h3>
-              <div class="line-mf"></div>
+              <div class="row justify-content-center">
+                <div class="col-sm-3 mb-3 mb-sm-0">
+                  <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling1" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Msc Integrated (5years) CS/IT</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Msc Integrated (5years)</h5>
+                      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling1" aria-controls="offcanvasScrolling">More Info</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 mb-3 mb-sm-0">
+                  <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                      <h3 class="offcanvas-title" id="offcanvasScrollingLabel">Msc Mathematics</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Msc Mathematics (2years)</h5>
+                      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">More Info</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
-  </main><!-- End #main -->
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 
 </html>
